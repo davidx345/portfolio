@@ -47,7 +47,7 @@ export default function Portfolio() {
                 <a href="mailto:davidayo2603@gmail.com" className="flex items-center gap-2 text-blue-600 hover:underline">
                   <Mail className="w-5 h-5" /> davidayo2603@gmail.com
                 </a>
-                <a href="https://linkedin.com/in/ayodele-david-ayooluwa" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-blue-600 hover:underline">
+                <a href="https://www.linkedin.com/in/david-ayodele-ayo" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-blue-600 hover:underline">
                   <Linkedin className="w-5 h-5" /> LinkedIn
                 </a>
               </div>
@@ -109,14 +109,14 @@ export default function Portfolio() {
                 <span className="text-sm">davidayo2603@gmail.com</span>
               </a>
               <a
-                href="https://linkedin.com/in/ayodele-david-ayooluwa"
+                href="https://www.linkedin.com/in/david-ayodele-ayo"
                 className="flex items-center space-x-2 text-gray-600 hover:text-blue-600 transition-colors"
               >
                 <Linkedin className="w-4 h-4" />
                 <span className="text-sm">LinkedIn</span>
               </a>
               <a
-                href="https://github.com/ayodeledavid"
+                href="https://github.com/davidx345"
                 className="flex items-center space-x-2 text-gray-600 hover:text-blue-600 transition-colors"
               >
                 <Github className="w-4 h-4" />
@@ -125,11 +125,10 @@ export default function Portfolio() {
             </div>
 
             <p className="text-gray-600 leading-relaxed mb-8">
-              Results-oriented engineer with a track record of building scalable microservice platforms, 
-              automating CI/CD pipelines, and delivering impactful AI/ML solutions. 
-              Founded, architected and engineered SchemaSage, a FastAPI-powered backend with 7 microservices, 
-              and co-founded and engineered EduNerve, an AI-driven LMS built to serve 15,000+ students.
-
+              Full-stack AI & DevOps Engineer and founder with hands-on experience in backend architecture, AI systems, and developer platforms.
+              I build production grade tools using FastAPI, microservices, and CI/CD automation including SchemaSage, 
+              an AI-powered schema and API generator, and EduNerve, an LMS transforming WAEC learning currently being built for over 1000 students for now .
+               My work spans intelligent automation, data-driven systems, scalable infrastructure, and AI powered products that solve real-world problems.
             </p>
 
             <div className="flex items-center space-x-2 text-gray-400">
@@ -189,11 +188,12 @@ export default function Portfolio() {
           <div className="grid lg:grid-cols-2 gap-6">
             {/* SchemaSage */}
             <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 relative">
-              <a href="https://schemasage.com" target="_blank" rel="noopener noreferrer" className="absolute top-4 right-4">
+              <a href="https://schemasage.vercel.app" target="_blank" rel="noopener noreferrer" className="absolute top-4 right-4">
                 <Button className="bg-black text-white hover:bg-gray-800 px-4 py-1 rounded-full text-xs">Visit Site</Button>
               </a>
-              <div className="flex items-center justify-between mb-4">
+              <div className="flex items-center gap-2 mb-4">
                 <h3 className="text-xl font-bold text-gray-900">SchemaSage</h3>
+                <Badge variant="secondary" className="text-xs">In Progress</Badge>
               </div>
               <p className="text-gray-600 mb-4">7-Microservice Backend</p>
               <p className="text-sm text-gray-600 leading-relaxed mb-4">
@@ -210,15 +210,13 @@ export default function Portfolio() {
 
             {/* EduNerve */}
             <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 relative">
-              <a href="https://edunerve.com" target="_blank" rel="noopener noreferrer" className="absolute top-4 right-4">
-                <Button className="bg-black text-white hover:bg-gray-800 px-4 py-1 rounded-full text-xs">Visit Site</Button>
-              </a>
-              <div className="flex items-center justify-between mb-4">
+              <div className="flex items-center gap-2 mb-4">
                 <h3 className="text-xl font-bold text-gray-900">EduNerve LMS</h3>
+                <Badge variant="secondary" className="text-xs">In Progress</Badge>
               </div>
-              <p className="text-gray-600 mb-4">AI Platform for 15,000+ Students</p>
+              <p className="text-gray-600 mb-4">Learning Platform being built for 1000+ Students</p>
               <p className="text-sm text-gray-600 leading-relaxed mb-4">
-                Engineered an offline-first Learning Management System serving 15,000+ students across West Africa,
+                Engineered an offline-first Learning Management System serving 1000+ students across West Africa,
                 integrating GPT-4 API for personalized learning recommendations with 40% improvement in engagement.
               </p>
               <div className="flex flex-wrap gap-2">
@@ -230,13 +228,13 @@ export default function Portfolio() {
 
             {/* SoliVolt */}
             <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 relative">
-              <a href="https://solivolt.com" target="_blank" rel="noopener noreferrer" className="absolute top-4 right-4">
+              <a href="https://smart-contract-rewriter.vercel.app/" target="_blank" rel="noopener noreferrer" className="absolute top-4 right-4">
                 <Button className="bg-black text-white hover:bg-gray-800 px-4 py-1 rounded-full text-xs">Visit Site</Button>
               </a>
               <h3 className="text-xl font-bold text-gray-900 mb-4">SoliVolt</h3>
               <p className="text-gray-600 mb-4">AI Smart Contract Rewriter</p>
               <p className="text-sm text-gray-600 leading-relaxed mb-4">
-                Engineered an AI tool for analyzing and rewriting Solidity smart contracts with risk flagging system for
+                Engineered an assistant tool for analyzing and rewriting Solidity smart contracts with risk flagging system for
                 vulnerability detection, enhancing security audit processes.
               </p>
               <div className="flex flex-wrap gap-2">
@@ -248,7 +246,7 @@ export default function Portfolio() {
 
             {/* AI Stock Predictor */}
             <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 relative">
-              <a href="https://aistockpredictor.com" target="_blank" rel="noopener noreferrer" className="absolute top-4 right-4">
+              <a href="https://web-production-ef8d0.up.railway.app/" target="_blank" rel="noopener noreferrer" className="absolute top-4 right-4">
                 <Button className="bg-black text-white hover:bg-gray-800 px-4 py-1 rounded-full text-xs">Visit Site</Button>
               </a>
               <h3 className="text-xl font-bold text-gray-900 mb-4">AI Stock Predictor</h3>
@@ -263,29 +261,90 @@ export default function Portfolio() {
                 <Badge variant="outline">Financial ML</Badge>
               </div>
             </div>
+
+            {/* FashionLens */}
+            <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 relative">
+              <a href="https://fashionlens.vercel.app/" target="_blank" rel="noopener noreferrer" className="absolute top-4 right-4">
+                <Button className="bg-black text-white hover:bg-gray-800 px-4 py-1 rounded-full text-xs">Visit Site</Button>
+              </a>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">FashionLens</h3>
+              <p className="text-gray-600 mb-4">AI Fashion Analysis Engine</p>
+              <p className="text-sm text-gray-600 leading-relaxed mb-4">
+                FashionLens is an AI-powered fashion analysis and recommendation engine that helps users identify clothing styles, 
+                detect fashion trends, and receive outfit suggestions. Leveraging computer vision and machine learning, 
+                it analyzes garments, textures, and styles to generate personalized recommendations for styling and shopping.
+              </p>
+              <div className="flex flex-wrap gap-2">
+                <Badge variant="outline">Computer Vision</Badge>
+                <Badge variant="outline">Fashion AI</Badge>
+                <Badge variant="outline">Recommendation Systems</Badge>
+              </div>
+            </div>
           </div>
         </div>
 
-        {/* About Section */}
-        <div className="grid lg:grid-cols-3 gap-8 mb-16" id="about">
-          <div>
-            <h2 className="text-2xl font-bold text-gray-900">About</h2>
-          </div>
-          <div className="lg:col-span-2 space-y-6">
-            <p className="text-gray-600 leading-relaxed">
-              My journey in DevOps and AI engineering is driven by a passion for building scalable, intelligent systems
-              that solve real-world problems. With expertise spanning cloud infrastructure, microservices architecture,
-              and machine learning, I specialize in creating robust solutions that can handle massive scale while
-              maintaining reliability and performance.
-            </p>
-            <p className="text-gray-600 leading-relaxed">
-              Currently pursuing my BSc in Computer Science at Covenant University, I combine academic knowledge with
-              hands-on experience in deploying production systems. Whether it's architecting a 7-microservice backend
-              serving thousands of users or building AI-powered educational platforms for underserved communities, I'm
-              committed to leveraging technology for meaningful impact.
-            </p>
+        {/* Experience Section */}
+        <div className="mb-16" id="experience">
+          <h2 className="text-2xl font-bold text-gray-900 mb-8">Experience</h2>
+          <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
+            <div className="mb-6">
+              <h3 className="text-xl font-bold text-gray-900 mb-2">HNG Internship – DevOps Intern [Stage 3]</h3>
+              <p className="text-blue-600 font-medium mb-4">Remote</p>
+              <ul className="text-sm text-gray-600 leading-relaxed space-y-2">
+                <li>• Automated CI/CD pipelines for 6+ microservices using GitHub Actions, reducing deployment time by 60% and increasing release frequency from weekly to daily.</li>
+                <li>• Worked on provisioning and managing cloud infrastructure on Azure, implementing infrastructure as code and containerization using Docker.</li>
+                <li>• Contributed to Agile workflows using Jira and Git for ticketing and version control, and actively participated in stand-ups and sprint reviews.</li>
+                <li>• Ensured seamless deployment with Nginx and implemented monitoring practices using Prometheus and Grafana.</li>
+              </ul>
+            </div>
           </div>
         </div>
+
+        {/* AI/ML Projects Section */}
+        <div className="mb-16">
+          <h2 className="text-2xl font-bold text-gray-900 mb-8">AI/ML Specialized Projects</h2>
+          <div className="grid lg:grid-cols-2 gap-6">
+            {/* Email Spam Detection */}
+            <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 relative">
+              <a href="https://davidx345-email-spam.onrender.com" target="_blank" rel="noopener noreferrer" className="absolute top-4 right-4">
+                <Button className="bg-black text-white hover:bg-gray-800 px-4 py-1 rounded-full text-xs">Visit Site</Button>
+              </a>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Email Spam Classifier</h3>
+              <p className="text-gray-600 mb-4">ML-Powered Text Classification</p>
+              <p className="text-sm text-gray-600 leading-relaxed mb-4">
+                Advanced machine learning classifier for email and SMS spam detection using natural language processing 
+                techniques. Features multiple algorithms including Naive Bayes and SVM with 95% accuracy in identifying 
+                spam messages through feature extraction and text preprocessing.
+              </p>
+              <div className="flex flex-wrap gap-2">
+                <Badge variant="outline">NLP</Badge>
+                <Badge variant="outline">Text Classification</Badge>
+                <Badge variant="outline">Machine Learning</Badge>
+              </div>
+            </div>
+
+            {/* Customer Churn Prediction */}
+            <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 relative">
+              <a href="https://david345-customerchurn.onrender.com" target="_blank" rel="noopener noreferrer" className="absolute top-4 right-4">
+                <Button className="bg-black text-white hover:bg-gray-800 px-4 py-1 rounded-full text-xs">Visit Site</Button>
+              </a>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Customer Churn Predictor</h3>
+              <p className="text-gray-600 mb-4">Predictive Analytics Platform</p>
+              <p className="text-sm text-gray-600 leading-relaxed mb-4">
+                Comprehensive customer churn prediction system using ensemble learning methods to identify customers 
+                at risk of leaving. Features advanced data preprocessing, feature engineering, and model interpretability 
+                to help businesses proactively retain customers and optimize retention strategies.
+              </p>
+              <div className="flex flex-wrap gap-2">
+                <Badge variant="outline">Predictive Analytics</Badge>
+                <Badge variant="outline">Ensemble Learning</Badge>
+                <Badge variant="outline">Business Intelligence</Badge>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
 
         {/* Education Section */}
         <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100" id="education">
@@ -302,9 +361,7 @@ export default function Portfolio() {
             <div>
               <h3 className="text-lg font-semibold text-gray-900">Certifications (In Progress)</h3>
               <ul className="text-sm text-gray-600 mt-2 space-y-1">
-                <li>• Azure DevOps Fundamentals</li>
-                <li>• Kubernetes Bootcamp</li>
-                <li>• Prompt Engineering Specialization</li>
+                <li>• AWS CLOUD PRACTITIONER</li> 
               </ul>
             </div>
           </div>
