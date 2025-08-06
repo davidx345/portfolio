@@ -127,7 +127,7 @@ export default function Portfolio() {
             <p className="text-gray-600 leading-relaxed mb-8">
               Full-stack AI & DevOps Engineer and founder with hands-on experience in backend architecture, AI systems, and developer platforms.
               I build production grade tools using FastAPI, microservices, and CI/CD automation including SchemaSage, 
-              an AI-powered schema and API generator, and EduNerve, an LMS transforming WAEC learning currently being built for over 1000 students for now .
+              an AI-powered schema and API generator, and EduNerve, an LMS transforming WAEC learning currently being built for over 1000 students.
                My work spans intelligent automation, data-driven systems, scalable infrastructure, and AI powered products that solve real-world problems.
             </p>
 
