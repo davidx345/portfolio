@@ -197,7 +197,7 @@ export default function Portfolio() {
               </div>
               <p className="text-gray-600 mb-4">7-Microservice Backend</p>
               <p className="text-sm text-gray-600 leading-relaxed mb-4">
-                Designed and implemented 7 FastAPI microservices containerized with Docker, supporting 10,000+ monthly
+                Designed and implemented 7 FastAPI microservices containerized with Docker, built to support 10,000+ monthly
                 active users with 99.9% uptime. Reduced deployment time by 60% through automated CI/CD workflows.
               </p>
               <div className="flex flex-wrap gap-2">
