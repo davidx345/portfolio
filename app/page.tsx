@@ -247,6 +247,9 @@ export default function Portfolio() {
               <a href="https://github.com/Oluiy/education" target="_blank" rel="noopener noreferrer" className="absolute top-4 right-4">
                 <Button variant="outline" className="px-4 py-1 rounded-full text-xs">GitHub</Button>
               </a>
+              <div className="flex items-center gap-2 mb-4">
+                <h3 className="text-xl font-bold text-gray-900">EduNerve</h3>
+              </div>
               <p className="text-gray-600 mb-4">Multi-Tenant Educational Management SaaS</p>
               <p className="text-sm text-gray-600 leading-relaxed mb-4">
                 Multi-tenant platform for school management with AI-powered content generation and student analytics.
