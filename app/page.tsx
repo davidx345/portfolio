@@ -185,6 +185,44 @@ export default function Portfolio() {
           </div>
         </div>
 
+
+        {/* Education Section */}
+        <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100 mb-16" id="education">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">Education & Training</h2>
+          <div className="space-y-6">
+            <div>
+              <h3 className="text-lg font-semibold text-gray-900">Bachelor of Science in Computer Science</h3>
+              <p className="text-blue-600 font-medium">Covenant University, Nigeria | Expected 2027 | GPA: 4.83/5.0</p>
+              <p className="text-sm text-gray-600 mt-2">
+                Relevant Coursework: Data Structures, Distributed Systems, Software Engineering, AI, Cloud Computing
+              </p>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold text-gray-900">Certifications (In Progress)</h3>
+              <ul className="text-sm text-gray-600 mt-2 space-y-1">
+                <li>• AWS CLOUD PRACTITIONER</li> 
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        {/* Experience Section */}
+        <div className="mb-16" id="experience">
+          <h2 className="text-2xl font-bold text-gray-900 mb-8">Experience</h2>
+          <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
+            <div className="mb-6">
+              <h3 className="text-xl font-bold text-gray-900 mb-2">DevOps Intern | HNG Internship</h3>
+              <p className="text-blue-600 font-medium mb-4">Remote | 2024-2025</p>
+              <ul className="text-sm text-gray-600 leading-relaxed space-y-2">
+                <li>• Built CI/CD pipelines with GitHub Actions for 6+ microservices, reducing deployment time by 60%</li>
+                <li>• Managed cloud infrastructure with Docker and Kubernetes, maintaining 99.9% uptime</li>
+                <li>• Implemented monitoring with Prometheus, Grafana, and Nginx for proactive issue detection</li>
+                <li>• Collaborated in Agile teams using Git workflows and Jira for sprint management</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
         {/* Project Highlights */}
         <div className="mb-16" id="projects">
           <h2 className="text-2xl font-bold text-gray-900 mb-8">Project Highlights</h2>
@@ -291,43 +329,6 @@ export default function Portfolio() {
                 <Badge variant="outline">Python</Badge>
                 <Badge variant="outline">Solidity</Badge>
               </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Experience Section */}
-        <div className="mb-16" id="experience">
-          <h2 className="text-2xl font-bold text-gray-900 mb-8">Experience</h2>
-          <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
-            <div className="mb-6">
-              <h3 className="text-xl font-bold text-gray-900 mb-2">DevOps Intern | HNG Internship</h3>
-              <p className="text-blue-600 font-medium mb-4">Remote | 2024-2025</p>
-              <ul className="text-sm text-gray-600 leading-relaxed space-y-2">
-                <li>• Built CI/CD pipelines with GitHub Actions for 6+ microservices, reducing deployment time by 60%</li>
-                <li>• Managed cloud infrastructure with Docker and Kubernetes, maintaining 99.9% uptime</li>
-                <li>• Implemented monitoring with Prometheus, Grafana, and Nginx for proactive issue detection</li>
-                <li>• Collaborated in Agile teams using Git workflows and Jira for sprint management</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        {/* Education Section */}
-        <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100 mb-16" id="education">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">Education & Training</h2>
-          <div className="space-y-6">
-            <div>
-              <h3 className="text-lg font-semibold text-gray-900">Bachelor of Science in Computer Science</h3>
-              <p className="text-blue-600 font-medium">Covenant University, Nigeria | Expected 2027 | GPA: 4.83/5.0</p>
-              <p className="text-sm text-gray-600 mt-2">
-                Relevant Coursework: Data Structures, Distributed Systems, Software Engineering, AI, Cloud Computing
-              </p>
-            </div>
-            <div>
-              <h3 className="text-lg font-semibold text-gray-900">Certifications (In Progress)</h3>
-              <ul className="text-sm text-gray-600 mt-2 space-y-1">
-                <li>• AWS CLOUD PRACTITIONER</li> 
-              </ul>
             </div>
           </div>
         </div>
