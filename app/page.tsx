@@ -282,14 +282,9 @@ export default function Portfolio() {
 
             {/* Fintech Reconciliation Engine */}
             <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 relative">
-              <div className="absolute top-4 right-4 flex gap-2">
-                <a href="https://transaction-three-vert.vercel.app" target="_blank" rel="noopener noreferrer">
-                  <Button className="bg-black text-white hover:bg-gray-800 px-4 py-1 rounded-full text-xs">Live Demo</Button>
-                </a>
-                <a href="https://github.com/Oluiy/education" target="_blank" rel="noopener noreferrer">
-                  <Button variant="outline" className="px-4 py-1 rounded-full text-xs">GitHub</Button>
-                </a>
-              </div>
+              <a href="https://transaction-three-vert.vercel.app" target="_blank" rel="noopener noreferrer" className="absolute top-4 right-4">
+                <Button className="bg-black text-white hover:bg-gray-800 px-4 py-1 rounded-full text-xs">Live Demo</Button>
+              </a>
               <div className="flex items-center gap-2 mb-4">
                 <h3 className="text-xl font-bold text-gray-900">Fintech Reconciliation Engine</h3>
               </div>
