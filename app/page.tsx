@@ -280,26 +280,31 @@ export default function Portfolio() {
               </div>
             </div>
 
-            {/* EduNerve */}
+            {/* Fintech Reconciliation Engine */}
             <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 relative">
-              <a href="https://github.com/Oluiy/education" target="_blank" rel="noopener noreferrer" className="absolute top-4 right-4">
-                <Button variant="outline" className="px-4 py-1 rounded-full text-xs">GitHub</Button>
-              </a>
-              <div className="flex items-center gap-2 mb-4">
-                <h3 className="text-xl font-bold text-gray-900">EduNerve</h3>
+              <div className="absolute top-4 right-4 flex gap-2">
+                <a href="https://transaction-three-vert.vercel.app" target="_blank" rel="noopener noreferrer">
+                  <Button className="bg-black text-white hover:bg-gray-800 px-4 py-1 rounded-full text-xs">Live Demo</Button>
+                </a>
+                <a href="https://github.com/Oluiy/education" target="_blank" rel="noopener noreferrer">
+                  <Button variant="outline" className="px-4 py-1 rounded-full text-xs">GitHub</Button>
+                </a>
               </div>
-              <p className="text-gray-600 mb-4">Multi-Tenant Educational Management SaaS</p>
+              <div className="flex items-center gap-2 mb-4">
+                <h3 className="text-xl font-bold text-gray-900">Fintech Reconciliation Engine</h3>
+              </div>
+              <p className="text-gray-600 mb-4">Automated Transaction Reconciliation Platform</p>
               <p className="text-sm text-gray-600 leading-relaxed mb-4">
-                Multi-tenant platform for school management with AI-powered content generation and student analytics.
-                Built 9-microservice architecture with complete tenant isolation and role-based access for 5 user types.
-                Developed 30+ REST APIs for course/quiz management, bulk CSV imports, and progress tracking.
+                Enterprise-grade automated reconciliation system for financial transactions processing and matching.
+                Built to handle high-volume transaction reconciliation with advanced matching algorithms and discrepancy detection.
+                Features automated report generation, audit trails, and real-time dashboard for monitoring reconciliation status.
               </p>
               <div className="flex flex-wrap gap-2">
                 <Badge variant="outline">Python</Badge>
                 <Badge variant="outline">FastAPI</Badge>
                 <Badge variant="outline">PostgreSQL</Badge>
                 <Badge variant="outline">Redis</Badge>
-                <Badge variant="outline">OpenAI</Badge>
+                <Badge variant="outline">Next.js</Badge>
                 <Badge variant="outline">Docker</Badge>
               </div>
             </div>
